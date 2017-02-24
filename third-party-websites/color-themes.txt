@@ -1,0 +1,18 @@
+
+                /*Color Theme 1*/
+                youmaxBackgroundColor     :"#ECEFF1",
+                itemBackgroundColor       :"#fbfbfb",
+                titleColor                :"rgb(255, 87, 34)",
+                descriptionColor          :"#686868",
+                viewsColor                :"#423d4a",
+                controlsTextColor         :"black",
+                
+
+                /*Color Theme 2*/
+                youmaxBackgroundColor     :"rgb(251, 251, 251)",
+                itemBackgroundColor       :"rgb(231, 229, 229)",
+                titleColor                :"rgb(255, 34, 34)",
+                descriptionColor          :"rgb(81, 81, 81)",
+                viewsColor                :"rgb(66, 61, 74)",
+                controlsTextColor         :"rgb(0, 0, 0)",
+

@@ -1,0 +1,82 @@
+<!-- Youmax Scripts -->
+<link href="[SQUARESPACE-CSS-LINK]" rel="stylesheet" type="text/css">
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="[SQUARESPACE-JS-LINK]"></script>
+<!-- ends -->
+
+
+<!--Youmax Container-->
+<div class="youmax-pro"></div>
+<!-- ends -->
+
+
+<!-- Youmax Call -->
+<script>
+
+    $(document).ready(function(){
+
+        $(".youmax-pro").youmaxPro({
+            apiKey:"AIzaSyAlhAqP5RS7Gxwg_0r_rh9jOv_5WfaJgXw",
+            channelLinkForHeader:"https://www.youtube.com/user/yogahousem",
+            tabs:[
+                {
+                    name:"Uploads",
+                    type:"youtube-channel-uploads",
+                    link:"https://www.youtube.com/user/yogahousem",
+                    //YouTube Channel Link needed here
+                },
+                {
+                    name:"Playlists",
+                    type:"youtube-channel-playlists",
+                    link:"https://www.youtube.com/user/yogahousem"
+                    //YouTube Channel Link needed here
+                },
+                {
+                    name:"Videos",
+                    type:"youtube-playlist-videos",
+                    link:"https://www.youtube.com/playlist?list=PL6_h4dV9kuuIOBDKgxu3q9DpvvJFZ6fB5"
+                    //YouTube Playlist Link needed here
+                }
+            ],
+            defaultTab:"Uploads", //Name of the Tab that should be displayed on your page start
+            
+            maxResults:"10",
+            widgetTitle:"My Videos",
+            videoDisplayMode:"popup",   //popup|link|inline
+            minimumViewsPerDayForTrendingVideos:"5",  
+            //If Views per day is greater than this number, the video will be marked a trending in Youmax.
+            
+            displayFirstVideoOnLoad:true,  //for inline video display mode only
+            defaultSortOrder:"recent-first", //popular-first|recent-first
+            youmaxDisplayMode:"grid",  //list|double-list|grid
+            gridThumbnailType:"full",   //simple|full|neat
+            dateFormat:"relative",      //relative|specific
+
+            //keep the titleColor in rgb format
+            youmaxBackgroundColor     :"#ECEFF1",
+            itemBackgroundColor       :"#fbfbfb",
+            titleColor                :"rgb(0, 172, 193)",
+            descriptionColor          :"#686868",
+            viewsColor                :"#6f6f6f",
+            controlsTextColor         :"black",
+
+            titleFontFamily         :"Open Sans",           //Open Sans|Roboto Condensed|sans-serif
+            generalFontFamily       :"Roboto Condensed",    //Open Sans|Roboto Condensed|sans-serif
+            titleFontSize           :"0.9",
+            titleFontWeight         :"normal",    //bold|normal
+            descriptionFontSize     :"0.85",
+            viewsDateFontSize       :"0.75",
+            baseFontSize            :"16px",        //use this to increase or decrease all font-sizes in Youmax
+
+            responsiveBreakpoints   :[600,900,2000,2500],
+
+            loadMoreText            :"<i class='fa fa-plus'></i>&nbsp;&nbsp;Show me more videos..",
+            ctaText                 :"<i class='fa fa-envelope'></i>&nbsp;&nbsp;Get me a consultation..",
+            ctaLink                 :"http://www.healthbyscience.co.uk/get-started-now/"
+
+        });
+    });
+
+
+</script>
+<!-- ends -->
